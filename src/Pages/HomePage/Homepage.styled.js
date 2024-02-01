@@ -3,9 +3,14 @@ import styled from "styled-components";
 export const StyledHomepage = styled.div`
    display: flex;
    flex-direction: row;
+   background-color: #19191a;
 
    .main{
     width:100%;
+   }
+
+   .container{
+      margin-right:10px;
    }
 
    .container-fluid{
