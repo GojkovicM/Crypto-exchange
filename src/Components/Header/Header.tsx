@@ -7,7 +7,7 @@ import letter from "../../images/letter.svg"
 function Header() {
     return ( 
         <StyledHeader>
-            <div className="wrapper">
+            
                 <h2>Dashboard</h2>
                     <div className="admin">
                         <img src={bell} alt="" />
@@ -18,7 +18,7 @@ function Header() {
                               <p>super admin</p>
                           </div>
                     </div>
-            </div>
+            
         </StyledHeader>
      );
 }
