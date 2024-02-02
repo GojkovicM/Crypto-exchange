@@ -1,10 +1,12 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
 import { StyledSidebar } from "./Sidebar.styled";
+import logo from "../../images/logo.png"
 
 
 
 function SideBar() {
-  const [isActiveSidebar, setIsActiveSidebar] = useState(false);
+  const [isActiveSidebar, setIsActiveSidebar] = useState<boolean>(false);
 
   const closeSidebar = () => {
     setIsActiveSidebar(!isActiveSidebar);
@@ -19,7 +21,7 @@ function SideBar() {
           <div className="image-text">
             <span className="image">
               <img
-                src="https://www.svgrepo.com/show/474519/orange.svg"
+                src={logo}
                 alt="logo"
               />
             </span>
