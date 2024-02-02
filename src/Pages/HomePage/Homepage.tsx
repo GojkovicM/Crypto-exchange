@@ -15,14 +15,13 @@ function HomePage() {
       <SideBar></SideBar>
       <div className="main">
         <Header></Header>
-        <div className="container">
+
+        <div className="container-fluid">
           <Row gutter={[16, 16]}>
             <Col offset={3} span={21}>
               <NewCrypto></NewCrypto>
             </Col>
           </Row>
-        </div>
-        <div className="container-fluid">
           <Row gutter={[16, 16]}>
             <Col offset={3} span={15}>
               <MostPopular></MostPopular>

@@ -4,8 +4,8 @@ const theme = {
   colors: {
     sidebar: "#202022",
     primary: "#ff971d", //naranadzassta
-    menu: "##f1f3f4",
     text: "#f1f3f4",
+   
 
   },
   transition: {
@@ -137,7 +137,7 @@ export const StyledSidebar = styled.div`
   }
 
   .menu-bar .mode {
-    /* background-color: ${theme.colors.menu}; */
+    
     border-radius: 6px;
     transition: ${theme.transition.tran03};
   }
