@@ -6,30 +6,30 @@ function MostPopular() {
     <StyledMostPopular>
       <div className="card">
         <div className="wrap">
-          <img src="" alt="" />
-          <p>btc/usdt</p>
-          <span>/</span>
+          <img src="https://www.svgrepo.com/show/484569/coin.svg" alt="" />
+          <h3>BTC/USDT</h3>
+          <span>-</span>
         </div>
         <p>35000$</p>
-        <p>+ 0.8 %</p>
+        <span className="percent">+ 0.8 %</span>
       </div>
       <div className="card">
         <div className="wrap">
-          <img src="" alt="" />
-          <p>btc/usdt</p>
-          <span>/</span>
+          <img src="https://www.svgrepo.com/show/484569/coin.svg" alt="" />
+          <h3>BTC/USDT</h3>
+          <span>-</span>
         </div>
         <p>35000$</p>
-        <p>+ 0.8 %</p>
+        <span className="percent">+ 0.8 %</span>
       </div>
       <div className="card">
         <div className="wrap">
-          <img src="" alt="" />
-          <p>btc/usdt</p>
-          <span>/</span>
+          <img src="https://www.svgrepo.com/show/484569/coin.svg" alt="" />
+          <h3>BTC/USDT</h3>
+          <span>-</span>
         </div>
         <p>35000$</p>
-        <p>+ 0.8 %</p>
+        <span className="percent">+ 0.8 %</span>
       </div>
     </StyledMostPopular>
   );

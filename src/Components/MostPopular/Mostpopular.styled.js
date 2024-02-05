@@ -1,21 +1,56 @@
 import styled from "styled-components";
 
+const theme = {
+  colors: {
+    background: "#202022",
+    primary: "#ff971d", //naranadzassta
+    text: "#f1f3f4",
+  },
+};
 
 export const StyledMostPopular = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: ${theme.colors.text};
+  
 
+
+
+  .card {
+    border: 1px solid black;
+    background-color: ${theme.colors.background};
+    border: none;
+    border-radius: 5px;
+    
+    padding: 1.7rem 2rem 1.7rem 2rem;
+    
+    
+  }
+
+  .card .wrap {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    
+    align-items: center;
+    padding: 1rem;
+  }
 
-    .card{
-        border: 1px solid black;
-        width: 200px;
-        
-        .wrap{
-            display: flex;
+  .card .wrap img {
+    height: 2.5rem;
+    padding-right: 1.5rem;
+  }
 
-        }
-    }
+  .card p{
+    font-size: 2rem;
+    padding: 1rem;
+  }
 
-`
+  .card .percent{
+    padding: 1rem;
+  }
+
+  .card h3{
+    padding-right: 1.5rem;
+  }
+`;
