@@ -10,17 +10,18 @@ const theme = {
 };
 
 export const StyledQuickTrade = styled.div`
-  border: 1px solid black;
+  
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   color: ${theme.colors.text};
+  background-color: ${theme.colors.background};
   padding: 1.3rem 1rem 1.3rem 1rem;
   margin-top: 1.3rem;
-  height: 18rem;
+  width: 48%;
+  
 
-  div {
-    padding: 0.7rem 0 0.7rem 0;
-  }
+  
   .wrapper {
     display: flex;
     flex-direction: row;
@@ -28,7 +29,7 @@ export const StyledQuickTrade = styled.div`
     align-items: center;
     ul {
       background-color: ${theme.colors.buttonBackground};
-      padding: 0.7rem;
+      padding: 0.5rem;
 
       .content {
         position: absolute;
@@ -53,7 +54,7 @@ export const StyledQuickTrade = styled.div`
     color: white;
     width: 48%;
     border: none;
-    padding: 0.3rem;
+    padding: 0.5rem;
   }
   button:nth-child(2) {
     background-color: red;

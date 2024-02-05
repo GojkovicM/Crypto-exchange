@@ -17,13 +17,13 @@ function QuickTrade() {
           </div>
         </ul>
       </div>
-      <div>
+      <div className="input">
+        <span >Amount BTC</span> <input type="text" />
+      </div>
+      <div className="input">
         <span>Amount BTC</span> <input type="text" />
       </div>
-      <div>
-        <span>Amount BTC</span> <input type="text" />
-      </div>
-      <div>
+      <div className="input">
         <span>Amount BTC</span> <input type="text" />
       </div>
       <div className="button">

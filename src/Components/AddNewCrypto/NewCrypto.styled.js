@@ -19,6 +19,7 @@ export const StyledNewCrypto = styled.div`
   align-items: center; 
   justify-content: space-between;
   color: ${theme.colors.text};
+ 
   
   
  

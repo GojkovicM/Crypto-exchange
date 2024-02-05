@@ -22,7 +22,7 @@ export const StyledHomepage = styled.div`
    .wraper{
       display: flex;
       flex-direction: row;
-      justify-content:space-around;
+      justify-content:space-between;
    }
    
 `
