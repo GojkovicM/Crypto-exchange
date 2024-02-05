@@ -16,9 +16,14 @@ const theme = {
 
 export const StyledNewCrypto = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: end;
+  align-items: center; 
+  justify-content: space-between;
   color: ${theme.colors.text};
+  
+  
+ 
+  
+
 
   .wrapper {
     display: flex;
@@ -120,7 +125,7 @@ export const StyledNewCrypto = styled.div`
     border: none;
     border-radius: 5px;
     padding: 10px 20px 10px 20px;
-    margin-left: 40px;
     text-wrap: nowrap;
+    margin-left: 40px;
   }
 `;
