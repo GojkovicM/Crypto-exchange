@@ -6,7 +6,9 @@ export const StyledHomepage = styled.div`
    background-color: #19191a;
 
    .main{
-    width:100%;
+    width: 100%;
+    
+
    }
 
    .container{
