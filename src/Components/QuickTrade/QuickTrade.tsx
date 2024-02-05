@@ -4,11 +4,34 @@ import { StyledQuickTrade } from "./QuickTrade.styled";
 function QuickTrade() {
     return ( 
         <StyledQuickTrade>
-            QuickTrade <br />
-            Amount <br />
-            Price <br />
-            Total  <br />
-            Buy/Sell <br />
+            <div className="wrapper">
+                <h3>Quick Trade</h3>
+                <ul> Izaberi: 
+                    <img src="" alt="" />
+                    <div className="content">
+                    <li>marko</li>
+                    <li>branko</li>
+                    <li>darko</li>
+                    </div>
+                </ul>
+            </div>
+            <div>
+            <span>Amount BTC</span> <input type="text" />
+            </div>
+            <div>
+            <span>Amount BTC</span> <input type="text" />
+            </div>
+            <div>
+            <span>Amount BTC</span> <input type="text" />
+            </div>
+            <div className="button">
+                <button>Buy
+                    <img src="" alt="" />
+                </button>
+                <button>Sell
+                    <img src="" alt="" />
+                </button>
+            </div>
         </StyledQuickTrade>
      );
 }

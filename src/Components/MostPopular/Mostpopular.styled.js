@@ -11,8 +11,11 @@ const theme = {
 export const StyledMostPopular = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: space-between;
+  align-items: center;
   color: ${theme.colors.text};
+  
+
 
 
   .card {
@@ -20,7 +23,7 @@ export const StyledMostPopular = styled.div`
     background-color: ${theme.colors.background};
     border: none;
     border-radius: 5px;
-    margin-right: 5rem;
+    
     padding: 1.7rem 2rem 1.7rem 2rem;
     
     
