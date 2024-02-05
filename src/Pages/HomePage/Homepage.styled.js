@@ -4,6 +4,7 @@ export const StyledHomepage = styled.div`
    display: flex;
    flex-direction: row;
    background-color: #19191a;
+   
 
    .main{
     width: 100%;
