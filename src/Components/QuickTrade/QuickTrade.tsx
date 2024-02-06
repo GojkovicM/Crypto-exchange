@@ -1,30 +1,31 @@
 import React from "react";
 import { StyledQuickTrade } from "./QuickTrade.styled";
+import { Select, Space } from "antd";
 
 function QuickTrade() {
   return (
     <StyledQuickTrade>
       <div className="wrapper">
-        <h3>Quick Trade</h3>
-        <ul>
-          {" "}
-          Izaberi:
-          <img src="" alt="" />
-          <div className="content">
-            <li>marko</li>
-            <li>branko</li>
-            <li>darko</li>
-          </div>
-        </ul>
+        <p>Quick Trade</p>
+        <Space wrap>
+          <Select
+            defaultValue={`BTC/USD`}
+            options={[
+              { value: "Marko", label: "Marko" },
+              { value: "Darko", label: "Darko" },
+              { value: "Zarko", label: "Zarko" },
+            ]}
+          />
+        </Space>
       </div>
       <div className="input">
-        <span >Amount BTC</span> <input type="text" />
+        <span>Amount BTC</span> <input type="number" />
       </div>
-      <div className="input">
-        <span>Amount BTC</span> <input type="text" />
+      <div className="text">
+        <span>Price BPL</span> <p></p>
       </div>
-      <div className="input">
-        <span>Amount BTC</span> <input type="text" />
+      <div className="text">
+        <span>Total BPL</span> <p></p>
       </div>
       <div className="button">
         <button>

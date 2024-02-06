@@ -6,22 +6,22 @@ import arrow from "../../images/left-up.svg";
 function AccountSum() {
   return (
     <StyledAccountSum>
-      <h3>Account Summary</h3>
+      <p>Account Summary</p>
       <div className="wrap">
         <div className="card">
-          <img src={thunder} alt="" />
+          <img src={thunder} alt="this week" />
           <p>This Week</p>
           <span>$3.45K</span>
           <span>+64%</span>
         </div>
         <div className="card">
-          <img src={arrow} alt="" />
+          <img src={arrow} alt="whis month" />
           <p>This Month</p>
           <span>$3.45K</span>
           <span>+64%</span>
         </div>
         <div className="card">
-          <img src={thunder} alt="" />
+          <img src={thunder} alt="this year" />
           <p>This Year</p>
           <span>$3.45K</span>
           <span>+64%</span>

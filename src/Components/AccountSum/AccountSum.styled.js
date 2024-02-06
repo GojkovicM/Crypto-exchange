@@ -10,14 +10,20 @@ const theme = {
 };
 
 export const StyledAccountSum = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: ${theme.colors.background};
   width: 47%;
   padding: 1.3rem 1rem 1.3rem 1rem;
   margin-top: 1.3rem;
   color: ${theme.colors.text};
 
-  h3{
-    padding-bottom: 1.3rem;
+
+  p {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
   }
 
   .wrap {
@@ -26,22 +32,32 @@ export const StyledAccountSum = styled.div`
     justify-content: space-between;
     align-items: center;
     /* padding-top: 1rem; */
-    
 
     .card {
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: space-around ;
+      justify-content: space-around;
       background-color: ${theme.colors.buttonBackground};
-      width:30%;
+      width: 32%;
+
       
-     
-      
-      p, span {
+      p{
+        padding: 1rem;
+        font-size: 1rem;
+      }
+
+      span{
         padding: 1rem;
       }
-      
+
+        span:nth-child(3){
+        font-size: 1.6rem;
+      }
+
+      span:nth-child(4){
+        font-size: 1rem;
+      }
     }
 
     img {

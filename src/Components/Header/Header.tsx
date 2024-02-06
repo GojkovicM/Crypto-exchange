@@ -10,12 +10,12 @@ function Header() {
             
                 <h2>Dashboard</h2>
                     <div className="admin">
-                        <img src={bell} alt="" />
-                        <img src={letter} alt="" />
-                        <img src="https://www.svgrepo.com/show/532363/user-alt-1.svg" alt="" />
+                        <img src={bell} alt="notification" />
+                        <img src={letter} alt="inbox" />
+                        <img src="https://www.svgrepo.com/show/532363/user-alt-1.svg" alt="user" />
                           <div className="user">
-                              <h5>Pera Detlic</h5>
-                              <p>super admin</p>
+                              <p>Pera Detlic</p>
+                              <span>super admin</span>
                           </div>
                     </div>
             
