@@ -12,8 +12,8 @@ const theme = {
 export const StyledHeader = styled.div`
   background-color: ${theme.colors.header};
 
+  
   width: 100%;
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -50,11 +50,11 @@ export const StyledHeader = styled.div`
     padding: 0 1rem 0 0.7rem;
   }
 
-  .admin .user h5 {
+  .admin .user p {
     color: ${theme.colors.text};
   }
 
-  .admin .user p {
+  .admin .user span {
     color: ${theme.colors.primary};
   }
 `;

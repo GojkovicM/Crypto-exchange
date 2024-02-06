@@ -14,40 +14,39 @@ export const StyledMostPopular = styled.div`
   justify-content: space-between;
   color: ${theme.colors.text};
   margin-top: 1.5rem;
-  
+
   .card {
-    border: 1px solid black;
     background-color: ${theme.colors.background};
     border: none;
     border-radius: 5px;
-    /* margin-right: 5rem; */
-    padding: 1.7rem 2rem 1.7rem 2rem;
+    padding: 1.5rem;
     width: 30%;
   }
 
   .card .wrap {
     display: flex;
     flex-direction: row;
-
     align-items: center;
-    padding: 1rem;
+    padding-bottom: 1rem;
   }
 
   .card .wrap img {
-    height: 2.5rem;
+    height: 2rem;
     padding-right: 1.5rem;
   }
 
-  .card p {
+  .card .wrap p {
+    font-size: 1.2rem;
+    padding-right: 1.5em;
+    
+  }
+
+  .card .amount {
     font-size: 2rem;
-    padding: 1rem;
+    padding-bottom: 1rem;
   }
 
-  .card .percent {
-    padding: 1rem;
-  }
-
-  .card h3 {
-    padding-right: 1.5rem;
+  .card .percent{
+    font-size: 1rem;
   }
 `;

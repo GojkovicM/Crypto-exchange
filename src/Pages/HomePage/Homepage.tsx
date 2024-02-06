@@ -15,23 +15,28 @@ function HomePage() {
       <SideBar></SideBar>
       <div className="main">
         <Header></Header>
-
-        <div className="container-fluid">
+        <div className="container-wrapper">
           <Row gutter={[16, 16]}>
-            <Col offset={3} span={21}>
-              <NewCrypto></NewCrypto>
-            </Col>
-          </Row>
-          <Row gutter={[16, 16]}>
-            <Col offset={3} span={15}>
-              <MostPopular></MostPopular>
-              <div className="wraper">
-                <QuickTrade></QuickTrade>
-                <AccountSum></AccountSum>
+            <Col  span={24}>
+              <div className="container-fluid">
+                <Row gutter={[16, 16]}>
+                  <Col offset={1} span={23} >
+                    <NewCrypto></NewCrypto>
+                  </Col>
+                </Row>
+                <Row gutter={[16, 16]}>
+                  <Col offset={1} span={17}>
+                    <MostPopular></MostPopular>
+                    <div className="wraper">
+                      <QuickTrade></QuickTrade>
+                      <AccountSum></AccountSum>
+                    </div>
+                  </Col>
+                  <Col span={6}>
+                    <Search></Search>
+                  </Col>
+                </Row>
               </div>
-            </Col>
-            <Col span={6}>
-              <Search></Search>
             </Col>
           </Row>
         </div>
