@@ -18,6 +18,7 @@ export const StyledQuickTrade = styled.div`
   padding: 1.3rem 1rem 1.3rem 1rem;
   margin-top: 1.3rem;
   width: 48%;
+  border-radius: 5px;
 
   .wrapper {
     display: flex;

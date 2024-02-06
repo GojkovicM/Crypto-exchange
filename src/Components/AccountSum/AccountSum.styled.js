@@ -18,6 +18,7 @@ export const StyledAccountSum = styled.div`
   padding: 1.3rem 1rem 1.3rem 1rem;
   margin-top: 1.3rem;
   color: ${theme.colors.text};
+  border-radius: 5px;
 
 
   p {
