@@ -30,6 +30,7 @@ export const StyledNewCrypto = styled.div`
     padding: 0.5rem 1rem 0.5rem 1rem;
     /* margin-right: 20px; */
     text-wrap: nowrap;
+    border-radius: 5px;
   }
 
   .ant-space {

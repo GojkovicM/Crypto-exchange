@@ -14,6 +14,7 @@ export const StyledMostPopular = styled.div`
   justify-content: space-between;
   color: ${theme.colors.text};
   margin-top: 1.5rem;
+  
 
   .card {
     background-color: ${theme.colors.background};
@@ -27,7 +28,7 @@ export const StyledMostPopular = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-bottom: 1rem;
+    padding-bottom: 1.4rem;
   }
 
   .card .wrap img {
@@ -43,7 +44,7 @@ export const StyledMostPopular = styled.div`
 
   .card .amount {
     font-size: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.4rem;
   }
 
   .card .percent{

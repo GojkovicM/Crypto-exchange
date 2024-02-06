@@ -8,6 +8,8 @@ import MostPopular from "../../Components/MostPopular/MostPopular.tsx";
 import QuickTrade from "../../Components/QuickTrade/QuickTrade.tsx";
 import AccountSum from "../../Components/AccountSum/AccountSum.tsx";
 import Search from "../../Components/Search/Search.jsx";
+import RecentTrading from "../../Components/RecentTrading/RecentTrading.tsx";
+import History from "../../Components/History/History.jsx";
 
 function HomePage() {
   return (
@@ -17,10 +19,10 @@ function HomePage() {
         <Header></Header>
         <div className="container-wrapper">
           <Row gutter={[16, 16]}>
-            <Col  span={24}>
+            <Col span={24}>
               <div className="container-fluid">
                 <Row gutter={[16, 16]}>
-                  <Col offset={1} span={23} >
+                  <Col offset={1} span={23}>
                     <NewCrypto></NewCrypto>
                   </Col>
                 </Row>
@@ -34,6 +36,14 @@ function HomePage() {
                   </Col>
                   <Col span={6}>
                     <Search></Search>
+                  </Col>
+                </Row>
+                <Row gutter={[16, 16]}>
+                  <Col offset={1} span={17}>
+                    <RecentTrading></RecentTrading>
+                  </Col>
+                  <Col>
+                    <History></History>
                   </Col>
                 </Row>
               </div>

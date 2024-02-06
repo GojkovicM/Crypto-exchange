@@ -18,18 +18,25 @@ export const StyledSearch = styled.div`
     margin-top: 1.5rem;
     display: flex;
     flex-direction: column;
-    height: calc(100% - 1.5rem);
     padding: 1rem;
     background-color: ${theme.colors.background};
+    height: calc(100% - 1.5rem);
+    border-radius: 5px;
    
+    
 
    
     
     input{
         margin-bottom: 2rem;
+        border: none;
+        background-color: rgba(128, 128, 128, 0.2);
+        color: ${theme.colors.text};
+        padding: 0.5rem;
+        font-size: 1rem;
     }
     
     img{
-       height: 30rem ;
+      
     }
 `;
