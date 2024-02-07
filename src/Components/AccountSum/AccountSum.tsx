@@ -1,7 +1,7 @@
 import React from "react";
 import { StyledAccountSum } from "./AccountSum.styled";
-import thunder from "../../images/thunder.svg";
-import arrow from "../../images/left-up.svg";
+import thunder from "../../assets/thunder.svg";
+import arrow from "../../assets/Arrow.svg";
 
 function AccountSum() {
   return (

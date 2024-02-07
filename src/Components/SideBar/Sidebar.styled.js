@@ -5,8 +5,7 @@ const theme = {
     sidebar: "#202022",
     primary: "#ff971d", //naranadzassta
     text: "#f1f3f4",
-   
-
+    background: "rgba(128, 128, 128, 0.2)",
   },
   transition: {
     tran02: "all 0.2s ease",
@@ -33,11 +32,44 @@ export const StyledSidebar = styled.div`
     opacity: 0;
   }
 
+  .sidebar.close .sidebar-feature {
+    opacity: 0;
+    transition: ${theme.colors.tran05};
+  }
+
+  .sidebar .sidebar-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: ${theme.colors.background};
+    margin-top: 1rem;
+    min-width:14.4rem;
+    transition: ${theme.colors.tran05};
+    padding: 0.5rem 0.2rem 0.5rem 0.2rem;
+    
+  }
+
+  .sidebar .sidebar-feature p {
+    font-size: 1.8rem;
+    text-align: center;
+    color: ${theme.colors.text};
+    padding: 1rem 0 1rem 0;
+    
+  }
+
+  .sidebar .sidebar-feature button {
+    background-color: ${theme.colors.primary};
+    color: ${theme.colors.text};
+    padding: 0.7rem;
+    border: none;
+    border-radius: 1rem;
+  }
+
   .sidebar .text {
     font-size: 16px;
     font-weight: 500;
     color: ${theme.colors.text};
-    transition: ${theme.transition.tran05};
+    transition: ${theme.transition.tran03};
     opacity: 1;
   }
 
@@ -96,7 +128,7 @@ export const StyledSidebar = styled.div`
 
   .sidebar .header .toggle {
     position: absolute;
-    top: 5px;
+    top: 0.76rem;
     right: -25px;
     height: 30px;
     width: 30px;
@@ -137,7 +169,6 @@ export const StyledSidebar = styled.div`
   }
 
   .menu-bar .mode {
-    
     border-radius: 6px;
     transition: ${theme.transition.tran03};
   }

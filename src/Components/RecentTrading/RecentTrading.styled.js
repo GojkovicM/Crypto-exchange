@@ -17,6 +17,7 @@ export const StyledRecentTrading = styled.div`
   color: ${theme.colors.text};
   border-radius: 5px;
   font-size: 1rem;
+  
 
   .wrap {
     display: flex;
@@ -51,6 +52,7 @@ export const StyledRecentTrading = styled.div`
 
   .table {
     overflow-y: auto;
+    scrollbar-width: thin;
     padding-top: 1rem;
     text-align: center;
     text-wrap: nowrap;

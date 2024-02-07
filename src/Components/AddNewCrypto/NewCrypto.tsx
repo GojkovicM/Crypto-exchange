@@ -2,6 +2,7 @@ import React from "react";
 import { StyledNewCrypto } from "./NewCrypto.styled";
 import fuse from "../../images/fuse.svg";
 import plane from "../../images/plane.svg"
+import coin from "../../assets/Bitcoin-3.svg"
 
 import { Select, Space } from "antd";
 
@@ -13,8 +14,8 @@ function NewCrypto() {
       <div className="wrapper">
         <img
           className="coin"
-          src="https://www.svgrepo.com/show/484569/coin.svg"
-          alt=""
+          src={coin}
+          alt="coin"
         />
 
         <Space wrap >

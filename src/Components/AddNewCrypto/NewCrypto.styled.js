@@ -35,7 +35,7 @@ export const StyledNewCrypto = styled.div`
 
   .ant-space {
     width: 7rem;
-    margin-right: 0.5rem;
+    margin-right: 0.7rem;
   }
 
   .wrapper .ant-select-selector {
@@ -67,7 +67,7 @@ export const StyledNewCrypto = styled.div`
   }
 
   .wrapper .coin {
-    padding-right: 3rem;
+    padding-right: 2rem;
   }
 
   .wrapper .coin,

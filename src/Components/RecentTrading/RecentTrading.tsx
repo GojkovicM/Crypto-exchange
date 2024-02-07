@@ -4,10 +4,10 @@ import { StyledRecentTrading } from "./RecentTrading.styled";
 
 function RecentTrading() {
 
-  const[isactive, setIsActive] = useState("");
+  const[isactive, setIsActive] = useState<string>("");
 
-  const buttonHandler = (event) => {
-        setIsActive(event)
+  const buttonHandler = (buttonName) => {
+        setIsActive(buttonName)
     }
         
 
@@ -19,7 +19,7 @@ function RecentTrading() {
     <StyledRecentTrading>
       <div className="wrap">
         <div className="name">
-          <p>Recent Trading Activities</p>
+          <h2>Recent Trading Activities</h2>
           <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
         </div>
         <div className="buttons">
