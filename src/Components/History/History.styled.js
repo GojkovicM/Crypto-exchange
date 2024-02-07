@@ -14,9 +14,7 @@ export const StyledHistory = styled.div`
   background-color: ${theme.colors.background};
   border-radius: 5px;
   color: ${theme.colors.text};
-  margin-top: 1.5rem;
-  min-height: 535px;
-  max-height: 535px;
+  
   
   
 
@@ -45,4 +43,6 @@ export const StyledHistory = styled.div`
   .wrapper .coin img {
     height: 3rem;
   }
+
+ 
 `;

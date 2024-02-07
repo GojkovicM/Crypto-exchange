@@ -12,18 +12,17 @@ const theme = {
 export const StyledAccountSum = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   background-color: ${theme.colors.background};
-  width: 47%;
   padding: 1.3rem 1rem 1.3rem 1rem;
-  margin-top: 1.3rem;
   color: ${theme.colors.text};
   border-radius: 5px;
+  height: 100%;
+  
+  
+  
+ 
 
-
-  p {
-    font-size: 1.3rem;
-    font-weight: 600;
+  h2 {
     padding-bottom: 1rem;
   }
 
@@ -42,21 +41,20 @@ export const StyledAccountSum = styled.div`
       background-color: ${theme.colors.buttonBackground};
       width: 32%;
 
-      
-      p{
+      p {
         padding: 1rem;
         font-size: 1rem;
       }
 
-      span{
+      span {
         padding: 1rem;
       }
 
-        span:nth-child(3){
+      span:nth-child(3) {
         font-size: 1.6rem;
       }
 
-      span:nth-child(4){
+      span:nth-child(4) {
         font-size: 1rem;
       }
     }

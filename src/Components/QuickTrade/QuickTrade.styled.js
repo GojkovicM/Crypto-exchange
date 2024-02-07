@@ -16,19 +16,17 @@ export const StyledQuickTrade = styled.div`
   color: ${theme.colors.text};
   background-color: ${theme.colors.background};
   padding: 1.3rem 1rem 1.3rem 1rem;
-  margin-top: 1.3rem;
-  width: 48%;
+  /* margin-top: 1.5rem; */
   border-radius: 5px;
-  
+  height: 100%;
 
   .wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 1rem;
   }
-
-
 
   .wrapper .ant-select-selector {
     background-color: rgba(128, 128, 128, 0.4);

@@ -10,13 +10,13 @@ const theme = {
 };
 
 export const StyledRecentTrading = styled.div`
-  margin-top: 1.5rem;
-  width: 100%;
+ 
   background-color: ${theme.colors.background};
   padding: 1.5rem 1rem 0 1rem;
   color: ${theme.colors.text};
   border-radius: 5px;
   font-size: 1rem;
+  
   
 
   .wrap {

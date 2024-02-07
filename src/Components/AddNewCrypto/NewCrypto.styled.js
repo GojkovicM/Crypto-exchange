@@ -16,18 +16,20 @@ const theme = {
 
 export const StyledNewCrypto = styled.div`
   display: flex;
+  flex-direction: row;
   align-items: center;
-  /* justify-content: space-between; */
-  
+  justify-content: space-between;
+  max-width: 100%;
   color: ${theme.colors.text};
 
   .wrapper {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-evenly;
     align-items: center;
     background-color: ${theme.colors.background};
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     /* margin-right: 20px; */
     text-wrap: nowrap;
     border-radius: 5px;
@@ -35,7 +37,6 @@ export const StyledNewCrypto = styled.div`
 
   .ant-space {
     width: 7rem;
-    margin-right: 0.7rem;
   }
 
   .wrapper .ant-select-selector {
@@ -55,11 +56,11 @@ export const StyledNewCrypto = styled.div`
 
   .wrapper div,
   .wrapper h3 {
-    padding-right: 3rem;
+    padding-right: 1.5rem;
   }
 
   .wrapper .fuse {
-    padding-right: 2rem;
+    padding-right: 0.5rem;
   }
 
   .wrapper .plane {
@@ -67,20 +68,20 @@ export const StyledNewCrypto = styled.div`
   }
 
   .wrapper .coin {
-    padding-right: 2rem;
+    padding-right: 0.5rem;
   }
 
   .wrapper .coin,
   .wrapper .fuse,
   .wrapper .plane {
-    height: 3rem;
+    height: 2.5rem;
   }
 
   .button {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    
+    justify-content: end;
+    max-width: 100%;
     
     
   }
@@ -90,12 +91,9 @@ export const StyledNewCrypto = styled.div`
     color: ${theme.colors.text};
     border: none;
     border-radius: 5px;
-    padding: 0.7rem 1.5rem 0.7rem 2rem;
+    padding: 0.7rem 1.5rem 0.7rem 1.5rem;
     text-wrap: nowrap;
-    margin-left: 3rem;
-    
+    margin-left: 1rem;
+   
   }
-    
-
- 
 `;

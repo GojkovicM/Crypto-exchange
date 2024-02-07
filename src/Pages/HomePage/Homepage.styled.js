@@ -8,18 +8,26 @@ export const StyledHomepage = styled.div`
   
 
   .main {
-   /* width: 100%; */
+    background-color: #19191a;
+    /* width: 100%; */
+    
+  }
+  
+  .first-row{
+    padding-top: 1.5rem;
+  }
+  
+  .second-row{
+    padding-top: 1.5rem;
+  }
+  
+  .third-row{
+    padding-top: 1.5rem;
   }
 
-  .container-fluid {
-    padding: 3rem 3rem 3rem 0;
-    
+  .subrow{
+    padding-top: 1rem;
   }
-  .wraper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  `;
+
     
-    
-  }
-`;
