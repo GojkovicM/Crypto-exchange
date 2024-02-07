@@ -1,6 +1,6 @@
 import React from "react";
 import { StyledSearch } from "./Seacrh.styled";
-import trade from "../../images/trade.png";
+import trade from "../../assets/SearchImg.svg";
 
 function Search() {
   return (

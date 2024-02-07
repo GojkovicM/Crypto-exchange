@@ -42,7 +42,7 @@ function HomePage() {
                   <Col offset={1} span={17}>
                     <RecentTrading></RecentTrading>
                   </Col>
-                  <Col>
+                  <Col span={6}>
                     <History></History>
                   </Col>
                 </Row>

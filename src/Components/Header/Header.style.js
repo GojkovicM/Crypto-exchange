@@ -18,11 +18,12 @@ export const StyledHeader = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 0.8rem;
+  padding: 1.03rem;
 
   h2 {
     padding-left: 1rem;
     color: ${theme.colors.text};
+    font-size: 2rem;
   }
 
   .admin {

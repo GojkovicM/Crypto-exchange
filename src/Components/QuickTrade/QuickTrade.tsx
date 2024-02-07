@@ -6,7 +6,7 @@ function QuickTrade() {
   return (
     <StyledQuickTrade>
       <div className="wrapper">
-        <p>Quick Trade</p>
+        <h2>Quick Trade</h2>
         <Space wrap>
           <Select
             defaultValue={`BTC/USD`}

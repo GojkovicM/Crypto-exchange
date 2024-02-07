@@ -19,6 +19,7 @@ export const StyledQuickTrade = styled.div`
   margin-top: 1.3rem;
   width: 48%;
   border-radius: 5px;
+  
 
   .wrapper {
     display: flex;
@@ -27,10 +28,7 @@ export const StyledQuickTrade = styled.div`
     align-items: center;
   }
 
-  .wrapper p {
-    font-size: 1.3rem;
-    font-weight: 600;
-  }
+
 
   .wrapper .ant-select-selector {
     background-color: rgba(128, 128, 128, 0.4);
