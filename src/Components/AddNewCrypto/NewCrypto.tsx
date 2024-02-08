@@ -6,7 +6,7 @@ import coin from "../../assets/Bitcoin-3.svg"
 
 import { Select, Space } from "antd";
 
-const arrowSymbol = String.fromCodePoint(0x2304);
+
 
 function NewCrypto() {
   return (
@@ -20,7 +20,7 @@ function NewCrypto() {
 
         <Space wrap >
           <Select 
-            defaultValue={`BTC/USD ${arrowSymbol}`}
+            defaultValue="BTC/USD"
             options={[
               { value: "Marko", label: "Marko" },
               { value: "Darko", label: "Darko" },
@@ -31,7 +31,7 @@ function NewCrypto() {
 
         <Space wrap >
           <Select 
-            defaultValue={`BTC/USD ${arrowSymbol}`}
+            defaultValue="BTC/USD"
             options={[
               { value: "Marko", label: "Marko" },
               { value: "Darko", label: "Darko" },
@@ -40,23 +40,23 @@ function NewCrypto() {
           />
         </Space>
 
-        <div>
+        <div className="data">
           <p className="orange">30000.2781</p>
           <p>25000</p>
         </div>
-        <div>
+        <div className="data">
           <p className="orange">122222220%</p>
           <p>30 changes</p>
         </div>
-        <div>
+        <div className="data">
           <p>37000.01</p>
           <p>24 high</p>
         </div>
-        <div>
+        <div className="data">
           <p>36000</p>
           <p>24 high low</p>
         </div>
-        <div>
+        <div className="data">
           <p>37000</p>
           <p>24h volume atc</p>
         </div>

@@ -6,27 +6,36 @@ export const StyledHomepage = styled.div`
   background-color: #19191a;
   min-height: 100vh;
   
+  
+  .middle{
+    background-color: #19191a;
+   
+   
+  }
 
   .main {
-    background-color: #19191a;
-    /* width: 100%; */
-    
+   
+    margin-right: 1rem;
   }
+    
   
   .first-row{
-    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+    
+   
   }
   
   .second-row{
-    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+   
   }
   
   .third-row{
-    padding-top: 1.5rem;
+    margin: 1.5rem 0 1.5rem 0;
   }
 
   .subrow{
-    padding-top: 1rem;
+    margin-top: 1rem;
   }
   `;
 

@@ -26,10 +26,7 @@ export const StyledRecentTrading = styled.div`
     justify-content: space-between;
   }
 
-  .wrap .name p {
-    font-size: 1.3rem;
-    font-weight: 600;
-  }
+  
 
   .wrap span {
     font-size: 0.7rem;

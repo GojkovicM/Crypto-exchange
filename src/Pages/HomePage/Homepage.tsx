@@ -10,13 +10,15 @@ import AccountSum from "../../Components/AccountSum/AccountSum.tsx";
 import Search from "../../Components/Search/Search.jsx";
 import RecentTrading from "../../Components/RecentTrading/RecentTrading.tsx";
 import History from "../../Components/History/History.jsx";
+import Footer from "../../Components/Footer/Footer.tsx";
 
 function HomePage() {
   return (
     <StyledHomepage>
       <SideBar></SideBar>
-      <div className="main">
-        <Header></Header>
+        <div className="middle">
+         <Header></Header>
+         <div className="main">
 
         <Row className="first-row" gutter={[16, 16]}>
           <Col offset={1} span={23}>
@@ -30,7 +32,7 @@ function HomePage() {
                 <MostPopular></MostPopular>
               </Col>
             </Row>
-            <Row className="subrow" gutter={[16, 16]} >
+            <Row className="subrow" gutter={[16, 16]}>
               <Col span={12}>
                 <QuickTrade></QuickTrade>
               </Col>
@@ -53,6 +55,8 @@ function HomePage() {
           </Col>
         </Row>
       </div>
+      <Footer></Footer>
+    </div>
     </StyledHomepage>
   );
 }
