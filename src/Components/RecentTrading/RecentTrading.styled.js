@@ -10,13 +10,13 @@ const theme = {
 };
 
 export const StyledRecentTrading = styled.div`
-  margin-top: 1.5rem;
-  width: 100%;
+ 
   background-color: ${theme.colors.background};
   padding: 1.5rem 1rem 0 1rem;
   color: ${theme.colors.text};
   border-radius: 5px;
   font-size: 1rem;
+  
   
 
   .wrap {
@@ -26,10 +26,7 @@ export const StyledRecentTrading = styled.div`
     justify-content: space-between;
   }
 
-  .wrap .name p {
-    font-size: 1.3rem;
-    font-weight: 600;
-  }
+  
 
   .wrap span {
     font-size: 0.7rem;

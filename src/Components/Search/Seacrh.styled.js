@@ -15,15 +15,17 @@ const theme = {
 };
 
 export const StyledSearch = styled.div`
-  margin-top: 1.5rem;
+  
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding: 1.3rem 1rem 1.3rem 1rem;
   background-color: ${theme.colors.background};
   border-radius: 5px;
-  max-height: 562px;
-  min-height: 562px;
+  height: 100%;
+  
+  
+  
+ 
 
   input {
     border: none;
@@ -32,7 +34,9 @@ export const StyledSearch = styled.div`
     padding: 0.5rem;
     font-size: 1rem;
   }
-  img {
-    height: 100%;
+  
+  img{
+    max-height: 30rem;
   }
+ 
 `;

@@ -13,12 +13,12 @@ export const StyledHeader = styled.div`
   background-color: ${theme.colors.header};
 
   
-  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 1.03rem;
+  padding: 1.03rem 0.5rem;
+  
 
   h2 {
     padding-left: 1rem;

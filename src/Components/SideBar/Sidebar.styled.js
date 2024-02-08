@@ -17,7 +17,7 @@ const theme = {
 
 export const StyledSidebar = styled.div`
   .sidebar {
-    height: 100%;
+    min-height: 100%;
     padding: 10px;
     width: 250px;
     transition: ${theme.transition.tran05};

@@ -10,39 +10,48 @@ const theme = {
 };
 
 export const StyledHistory = styled.div`
-  padding: 1.5rem 1rem 0 1rem;
+  padding: 1.5rem 1rem 1.5rem 1rem;
   background-color: ${theme.colors.background};
   border-radius: 5px;
   color: ${theme.colors.text};
-  margin-top: 1.5rem;
-  min-height: 535px;
-  max-height: 535px;
-  
-  
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
-  .wrapper .coin {
+  .coin {
     display: flex;
     flex-direction: row;
-    align-items: top;
-    padding: 0.7rem 0.5rem;
-    
+    align-items: start;
   }
 
-  .wrapper .coin .info {
+  .coin .info {
     display: flex;
     flex-direction: column;
-    padding: 0.5rem;
+    
+
+    padding: 0 1.5rem 0 1rem;
+    width: 25rem;
   }
 
-  .wrapper .coin .info span{
+  .coin .info span {
     padding: 1rem 0;
   }
-  
-  .wrapper .coin .info .coin-name{
+
+  .coin .info .coin-name {
     font-size: 1.5rem;
   }
 
-  .wrapper .coin img {
-    height: 3rem;
+  .coin img {
+    height: 2rem;
+  }
+
+  span {
+    font-size: 0.8rem;
+  }
+
+  .coin .text {
+    text-wrap: wrap;
+    font-size: 0.7rem;
   }
 `;

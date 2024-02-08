@@ -9,13 +9,13 @@ function History() {
     return (  
         <StyledHistory>
             <h2>History</h2>
-            <div className="wrapper">
+            
                 <div className="coin">
                     <img src={bitcoin} alt="" />
                     <div className="info">
                         <p className="coin-name">Bitcoin</p>
                         <span>+10.00%</span>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <p className="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                     <p>11/02/2024</p>
                 </div>
@@ -24,7 +24,7 @@ function History() {
                     <div className="info">
                         <p className="coin-name">Bitcoin</p>
                         <span>+10.00%</span>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <p className="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                     <p>11/02/2024</p>
                 </div>
@@ -33,11 +33,11 @@ function History() {
                     <div className="info">
                         <p className="coin-name">Bitcoin</p>
                         <span>+10.00%</span>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <p className="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
                     </div>
                     <p>11/02/2024</p>
                 </div>
-            </div>
+           
 
         </StyledHistory>
     );

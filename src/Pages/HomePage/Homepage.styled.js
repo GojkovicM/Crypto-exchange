@@ -6,20 +6,37 @@ export const StyledHomepage = styled.div`
   background-color: #19191a;
   min-height: 100vh;
   
+  
+  .middle{
+    background-color: #19191a;
+   
+   
+  }
 
   .main {
-   /* width: 100%; */
+   
+    margin-right: 1rem;
+  }
+    
+  
+  .first-row{
+    margin-top: 1.5rem;
+    
+   
+  }
+  
+  .second-row{
+    margin-top: 1.5rem;
+   
+  }
+  
+  .third-row{
+    margin: 1.5rem 0 1.5rem 0;
   }
 
-  .container-fluid {
-    padding: 3rem 3rem 3rem 0;
-    
+  .subrow{
+    margin-top: 1rem;
   }
-  .wraper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  `;
+
     
-    
-  }
-`;

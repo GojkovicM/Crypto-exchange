@@ -6,7 +6,7 @@ import arrow from "../../assets/Arrow.svg";
 function AccountSum() {
   return (
     <StyledAccountSum>
-      <p>Account Summary</p>
+      <h2>Account Summary</h2>
       <div className="wrap">
         <div className="card">
           <img src={thunder} alt="this week" />
